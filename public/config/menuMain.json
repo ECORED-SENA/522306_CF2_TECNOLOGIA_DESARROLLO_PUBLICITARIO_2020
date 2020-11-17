@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "icon": "fa fa-play-circle",
+    "slug": "tema-1",
+    "title": "1. El brief",
+    "path": "pages/tema-1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "tema-1",
+        "title": "Tipos de brief publicitarios",
+        "anchor": "tema-11"
+      }
+    ]    
+  },
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "tema-2",
+    "title": "2. Segmentación del mercado",
+    "path": "pages/tema-2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tema-2",
+        "title": "Concepto de mercado",
+        "anchor": "tema-21"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tema-2",
+        "title": "Proceso de segmentación",
+        "anchor": "tema-22"
+      }
+    ]      
+  }
+]

@@ -1,5 +1,5 @@
 //Colores base del material de formación
-$brand-color-1: rgb(32, 149, 175);
+$brand-color-1: rgb(19, 99, 178);
 $brand-color-2:  rgb(55, 41, 120);
 $brand-color-3: #CFEBF4;
 $brand-color-4: $yellow;
@@ -15,6 +15,10 @@ $brand-color-optional: #ededed;
 
 $base-color-highlight: $yellow;
 
+.bg-color-azul-2 {
+    background-color: #4A57AB !important;
+}
+
 .bg-color-2-rgba70 {
     background-color: rgba(19,20,38,.7);
 }
@@ -24,7 +28,11 @@ $base-color-highlight: $yellow;
 }
 
 .bg-color-yellow {
-    background-color: rgba(253, 241, 164,.3);
+    background-color: rgba(253, 241, 164,.2);
+
+    ul li {
+        font-size: .9em;
+    }
 }
 
 .border-color-1 {
@@ -39,13 +47,19 @@ $base-color-highlight: $yellow;
 .bg-color-gris {
     background-color: $gray-100;
 }
+.bg-color-gris-200 {
+    background-color: $gray-200;
+}
+.bg-color-gris-300 {
+    background-color: $gray-300;
+}
 
 h1 {
-    color:  $brand-color-1;
+    color:  rgb(19, 99, 178);
 }
 
 h2 {
-    color: $brand-color-1;
+    color: #1363B2;
 }
 
 h3 {
@@ -110,8 +124,12 @@ h4 {
     border-color: #A49579 !important;
 }
 
+.bg-color-amarillo-2 {
+    background-color: #FDF1A4 !important;
+}
+
 .bg-brand-color-secondary-rgba {
-    background: rgba(234, 230, 153, 0.40) !important;
+    background: rgba(234, 230, 153, 0.70) !important;
 }
 
 .card-header.bg-color-1 {

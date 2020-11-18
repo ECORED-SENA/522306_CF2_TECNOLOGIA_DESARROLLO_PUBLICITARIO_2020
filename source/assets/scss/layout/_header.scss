@@ -1,6 +1,6 @@
 .page-header {
     background: $brand-color-dark;
-    background: linear-gradient(180deg, rgba(32, 149, 175,1) 0%, rgba(32, 149, 175,.8) 100%);
+    background: linear-gradient(180deg, rgba(19, 99, 178,1) 0%, rgba(19, 99, 178,.8) 100%);
 
     position: relative;
 
@@ -19,7 +19,7 @@
         border-style: solid;
         border-width:50px 50px 0px 50px;
         position: absolute;
-        border-color:  rgba(32, 149, 175,.8) transparent transparent transparent;
+        border-color:  rgba(19, 99, 178,.8) transparent transparent transparent;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
